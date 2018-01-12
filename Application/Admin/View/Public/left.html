@@ -1,0 +1,106 @@
+
+      <nav class="navbar-default navbar-static-side" role="navigation" id = "navs">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header" style="text-align:center;">
+                        <div class="dropdown profile-element"> <span>
+                        </span>
+                        <span class="clear"> <span class="block m-t-xs" style = "color:#fff;"> <strong class="font-bold">管理员您好</strong>
+                        </span> <span class="text-muted text-xs block">欢迎回来~~   </span> </span>
+                    </div>
+                    <div class="logo-element">
+                        里程密
+                    </div>
+                </li>
+                    <li class="active">
+                <a href="{:U('Index/index')}"><i class="fa fa-diamond"></i> <span class="nav-label">后台首页</span> <span class="label label-primary pull-right">NEW</span></a>
+            </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-gear"></i> <span class="nav-label">网站设置</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li ><a href="{:U('Site/index')}">网站管理</a></li>
+                            <li ><a href="{:U('Site/mulu')}">首页栏目设置</a></li>
+                            <li ><a href="{:U('Adminer/index')}">管理员修改</a></li>
+                        </ul>
+                    </li>
+                    
+                     <li>
+                        <a href="index.html"><i class="fa fa-users"></i> <span class="nav-label">用户管理</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="/index.php?m=Admin&c=User&a=index">查看用户</a></li>
+                            <li><a href="/index.php?m=Admin&c=User&a=recovery">禁用用户</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">分类管理</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="{:U('Category/index')}">查看分类</a></li>
+                            <li ><a href="{:U('Category/add')}">添加分类</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="fa fa-file-image-o"></i> <span class="nav-label">幻灯片管理</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="{:U('Ksildes/index')}">查看幻灯片</a></li>
+                            <li ><a href="{:U('Ksildes/add')}">添加幻灯片</a></li>
+                            <li ><a href="{:U('Ksildes/recovery')}">幻灯片回收站</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="index.html"><i class="fa fa-clipboard"></i> <span class="nav-label">文章管理</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="{:U('Demoa/index')}">查看文章</a></li>
+                            <li><a href="{:U('Demoa/add')}">添加文章</a></li>
+                            <li><a href="{:U('Demoa/recovery')}">文章回收站</a></li>
+                        </ul>
+                    </li>                  
+                    <foreach name="code" item="vo">
+                    <li>
+                        <a href="index.html"><i class="fa fa-bank"></i> <span class="nav-label">{$vo.name}</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="{:U('Demoa/index',array("id"=>$vo['id']))}">查看文章</a></li>
+                            <li><a href="{:U('Demoa/add',array("id"=>$vo['id']))}">添加文章</a></li>
+                        </ul>
+                    </li>
+									</foreach>
+                    <li>
+                        <a href="index.html"><i class="fa fa-bank"></i> <span class="nav-label">底栏设置</span> <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="{:U('Footer/index',array("id"=>$vo['id']))}">查看底栏</a></li>
+                            <li><a href="{:U('Footer/add',array("id"=>$vo['id']))}">添加底栏栏目</a></li>
+                        </ul>
+                    </li>
+
+                <li>
+                    <a href="{:U('Login/logout')}">
+                        <i class="fa fa-sign-out"></i>退出登录
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        <div id="page-wrapper" class="gray-bg" style="overflow: hidden;">
+                <div class="row border-bottom">
+                    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                        <div class="navbar-header">
+                            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                            <form role="search" class="navbar-form-custom" method="post">
+                                <div class="form-group">
+                                    
+                                </div>
+                            </form>
+                        </div>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li>
+                                
+                            </li>
+                        <li>欢迎你，{$Think.session.username}</li>
+                            <li>
+                                <a data-toggle="modal" href="#myModal6">Good Luck</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                </div>

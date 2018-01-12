@@ -1,0 +1,1830 @@
+[ 2018-01-11T23:15:11+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.1031s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.1019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020244s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020654s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2018-01-11T23:15:13+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0604s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0563s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0686s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0765s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.035785s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018293s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018693s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006973s ]
+
+[ 2018-01-11T23:15:30+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.1210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018672s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019177s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2018-01-11T23:16:01+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0006s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.110994s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016347s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016718s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2018-01-11T23:17:07+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0385s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017813s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018178s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2018-01-11T23:18:24+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0720s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0626s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0376s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026745s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.027117s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001610s ]
+
+[ 2018-01-11T23:19:28+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0917s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0445s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025641s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019877s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020283s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004578s ]
+
+[ 2018-01-11T23:19:33+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0564s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0377s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0008s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019536s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019934s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2018-01-11T23:19:35+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016962s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017657s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018014s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2018-01-11T23:19:35+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0638s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0005s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.027837s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022323s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022743s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2018-01-11T23:19:36+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.2044s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.2358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018691s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016831s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017214s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2018-01-11T23:19:37+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0953s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0334s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016226s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016562s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2018-01-11T23:19:37+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0005s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017601s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018110s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002632s ]
+
+[ 2018-01-11T23:20:26+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0695s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0567s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0006s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017629s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015402s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016077s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2018-01-11T23:20:59+08:00 ] ::1 /Home/Demoa/met/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0293s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 23 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0305s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=23 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=14 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015891s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016239s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016574s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2018-01-11T23:21:01+08:00 ] ::1 /Home/Demoa/met/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 23 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=23 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 14 )  [ RunTime:0.0009s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=14 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016194s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016537s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-01-11T23:21:14+08:00 ] ::1 /Home/Demoa/met/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 23 )  [ RunTime:0.0011s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0005s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=23 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=14 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019012s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019489s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002479s ]
+
+[ 2018-01-11T23:22:02+08:00 ] ::1 /Home/Demoa/met/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 23 )  [ RunTime:0.0006s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=23 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0021s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=14 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017952s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036561s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036961s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2018-01-11T23:22:07+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013388s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013820s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2018-01-11T23:22:12+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0758s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_ksildes` [ RunTime:0.0543s ]
+SQL: SELECT * FROM `blog_ksildes` WHERE ( status=1 ) ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\BaseController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `blog_indexmulu` [ RunTime:0.2063s ]
+SQL: SELECT * FROM `blog_indexmulu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=2 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=27 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2018-01-11T23:22:19+08:00 ] ::1 /Home/Demoa/met/id/25.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.2865s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0007s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 25 )  [ RunTime:0.0008s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=25 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=24 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=24 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=24 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0636s ]
+SQL: SELECT `title`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=25 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( status=0 AND fid=25 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\62be6f923c5e1650ff2c07953c760379.php 第 49 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\62be6f923c5e1650ff2c07953c760379.php 第 51 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\62be6f923c5e1650ff2c07953c760379.php 第 51 行.
+NOTIC: [8] Undefined index: title C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\62be6f923c5e1650ff2c07953c760379.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-01-11T23:22:23+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0639s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0921s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0435s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.017839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013769s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014322s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2018-01-11T23:28:22+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000436s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+ERR: 无法加载控制器:Demoa
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php:277) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php:277) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2018-01-11T23:28:45+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.084793s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096145s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.096477s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008242s ]
+
+[ 2018-01-11T23:28:57+08:00 ] ::1 /Home/Demoa/met/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 10 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=10 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=10 ) LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2018-01-11T23:29:01+08:00 ] ::1 /Home/Demoa/met/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0305s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 10 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=10 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0276s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=10 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=10 ) LIMIT 0,9   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2018-01-11T23:29:03+08:00 ] ::1 /Home/Demoa/met/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=21 )  [ RunTime:0.0004s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 10 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=10 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017173s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017600s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2018-01-11T23:30:07+08:00 ] ::1 /Home/Demoa/met/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 21 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2018-01-11T23:30:09+08:00 ] ::1 /Home/Demoa/met/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0001s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 21 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 0,9   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2018-01-11T23:31:13+08:00 ] ::1 /Home/Demoa/met/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.2636s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.2117s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.1775s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 0,9   [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=21 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 10 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=10 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018008s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018392s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2018-01-11T23:32:39+08:00 ] ::1 /Home/Demoa/met/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 0,9   [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 10 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=10 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.021513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014490s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014821s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php:95) C:\phpStudy\PHPTutorial\WWW\lichengmi\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2018-01-11T23:33:03+08:00 ] ::1 /Home/Demoa/met/id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0004s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 21 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0256s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=21 ) LIMIT 0,9   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=21 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 10 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=21 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0001s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=10 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2018-01-11T23:33:08+08:00 ] ::1 /Home/Demoa/met/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.2491s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0761s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 10 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=10 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=3 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=3 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0465s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=10 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=10 ) LIMIT 0,9   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-01-11T23:33:11+08:00 ] ::1 /Home/Demoa/met/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0591s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.1182s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0735s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0011s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 23 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0003s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0736s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=23 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=23 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 14 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=23 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=22 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=22 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=14 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2018-01-11T23:33:11+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0541s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.1029s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `blog_ksildes` [ RunTime:0.1310s ]
+SQL: SELECT * FROM `blog_ksildes` WHERE ( status=1 ) ORDER BY id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\BaseController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `blog_indexmulu` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `blog_indexmulu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0308s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=2 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=27 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2018-01-11T23:33:13+08:00 ] ::1 /Home/Demoa/met/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0002s ]
+SQL: SELECT `name`,`fid`,`type` FROM `blog_category` WHERE ( id = 2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0493s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `title`,`pic1`,`id`,`content` FROM `blog_demoa` WHERE ( status=0 AND fid=2 ) LIMIT 0,9   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `blog_demoa` WHERE ( status=0 AND fid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`title` FROM `blog_demoa` WHERE ( id = 8 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid`,`name` FROM `blog_category` WHERE ( id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid=1 )  [ RunTime:0.0002s ]
+SQL: SELECT `content`,`pic1`,`pic2`,`pic3`,`pic4`,`title`,`type` FROM `blog_demoa` WHERE ( status=0 AND id=8 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\DemoaController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-01-11T23:45:26+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043893s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0669s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0719s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_ksildes` [ RunTime:0.0713s ]
+SQL: SELECT * FROM `blog_ksildes` WHERE ( status=1 ) ORDER BY id desc  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\BaseController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `blog_indexmulu` [ RunTime:0.0689s ]
+SQL: SELECT * FROM `blog_indexmulu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=2 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=27 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.411912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.412000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.098454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.098549s ]
+
+[ 2018-01-11T23:54:04+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid = 0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_category` WHERE ( fid != 0 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `blog_sites` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `blog_sites` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `blog_footer` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_footer` WHERE ( fid!=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `blog_ksildes` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `blog_ksildes` WHERE ( status=1 ) ORDER BY id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 4 C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Home\Controller\BaseController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `blog_indexmulu` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `blog_indexmulu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `blog_demoa` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `blog_demoa` WHERE ( fid=27 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+NOTIC: [8] Undefined variable: navat C:\phpStudy\PHPTutorial\WWW\lichengmi\Application\Runtime\Cache\Home\4ff1c5b8284f90a50fd957ef30c3e1de.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+

@@ -1,0 +1,61 @@
+<include file = "Public:top"/>
+	<div class="demo2-img"><img src="http://www.sztechand.com/templates/default/images/lianxi.jpg" alt="" width="100%" height="211px"/></div>
+
+		<div class="main fixed">
+			<div class="mainLeft">
+				<div class="menuBox">
+					<div class="menuTit"><b>{$column[0][name]}</b></div>
+					<ul class="menu">
+							<foreach name="fid" item="vo" key="k">
+								<if condition="$column[1][id] eq $vo['id']">
+										<li rel="108">
+									
+							      <a title="{$vo.name}"id="fid" href="{:U('Demoa/met',array('id'=>$vo['id']))}">{$vo.name}</a>
+									   <ul class="subMenu " rel="108">
+			   																																							   </ul>
+						        </li>
+								<else />
+								<li rel="108">
+									
+							      <a title="{$vo.name}" href="{:U('Demoa/met',array('id'=>$vo['id']))}">{$vo.name}</a>
+									   <ul class="subMenu " rel="108">
+			   																																							   </ul>
+						        </li>
+						        </if>
+								
+							</foreach>
+					
+                    </ul>
+                                            <div class="menuBom"></div>
+				</div>
+			</div>
+			<div class="mainRight">
+				<div class="path fixed">
+					<div class="pathTit"><b>{$re['title']}</b></div>
+					<!--<a href="http://www.sztechand.com/cn/">首页</a>
+	» <a href="http://www.sztechand.com/cn/lianxiwomen">联系我们</a>
+	» <a href="http://www.sztechand.com/cn/lianxiwomen/zongbudizhi">总部地址</a>
+-->
+<div class="bread">当前位置：
+<a href="/">首页</a>
+	<foreach name="column" item="vo">
+		- <a href="{:U('Demoa/met',array('id'=>$vo['id']))}">{$vo.name}</a>
+	</foreach>
+</div>
+				</div>
+				<div class="content">
+					<div class="article">
+							<div class="indexNewsCon">
+		         <ul class="indexNewsList2">
+						<foreach name="re" item="vo">
+				<li><span>{$vo.edittime|date = "Y-m-d",###}</span><a href="{:U('Demoa/index',array('id'=>$vo['id']))}">{$vo['title']}</a></li>
+				</foreach>
+				</ul>
+				</div>
+							
+					</div>
+				</div>
+			</div>
+		</div>
+<include file="Public:footer"/>
+

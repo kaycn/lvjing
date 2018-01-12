@@ -1,0 +1,77 @@
+<include file="Public/top" title = "" />
+		
+		<div class="boad3">
+		<div class="caseLink">
+				<div class="caseLinkTit"><b>{$column['1']['name']}</b><span>CASE</span></div>
+							
+			</div>
+			<div class="casePath fixed">
+				<h3>{$title}</h3>
+<div class="bread">当前位置：
+<a href="/">首页</a> 
+	<foreach name="column" item="vo">
+		- <a href="{:U('Demoa/met',array('id'=>$vo['id']))}">{$vo.name}</a>
+	</foreach>
+</div>
+			</div>
+			<div class="caseSlide fixed">
+				<div class="bd">
+					<ul>
+							<foreach name="mag" item="vo">
+							<li>
+								<img src="{$vo}" alt="" />
+							</li>
+							</foreach>
+												
+					</ul>
+				</div>
+				<div class="smallPic">
+					<a href="javascript:;" class="sprev"><i></i></a>
+					<div class="shd">
+						<ul>
+							<foreach name="mag" item="vo">
+							<li>
+								<img src="{$vo}" alt="" />
+							</li>
+							</foreach>
+													</ul>
+					</div>
+					<a href="javascript:;" class="snext"><i></i></a>
+				</div>
+			</div>
+			<script>
+				$(".caseSlide").slide({
+					mainCell:".bd ul",
+					titCell:".smallPic li",
+					autoPlay:true,
+					interTime:5000,
+					effect:"fold",
+					trigger:"click",
+					startFun:function(i){
+					if(i==0)
+						{
+							$(".caseSlide .sprev").click()
+						} 
+					else if (i%4==0)
+						{
+							$(".caseSlide .snext").click()
+						}	
+					}
+				});
+				$(".caseSlide").slide({ mainCell:".smallPic ul",prevCell:".sprev",nextCell:".snext",effect:"top",vis:4,scroll:4,delayTime:0,autoPage:true,pnLoop:false});
+			</script>
+			<div class="caseInfo">
+				<h3>项目介绍</h3>
+				<div class="caseCon">
+					<p>{$content}</p>				</div>
+			</div>
+			
+		</div>
+		</div>
+		
+		
+
+<include file="Public/footer"/>
+	</body>
+</html>
+

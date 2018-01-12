@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{$SiteInfo['title']}</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=0.3;"></head>
+			<meta name = "keywords" content="{$SiteInfo.keywords}" >
+		    <meta name = "description" content="{$SiteInfo.description}" >
+			<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+			<link href="__PUBLIC__/css/zzsc.css" rel="stylesheet" type="text/css" />
+			<link rel="stylesheet" href="__PUBLIC__/css/footer.css" />
+			<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.3.js"></script>
+			<script type="text/javascript"src="__PUBLIC__/js/layer.js"></script>
+			<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+	</head>
+	<body ontouchstart>
+
+	
+
+		
+		<div class="nav">
+			<div class="logo" title=""><a href="__PUBLIC__"><img height="80px" src="{$SiteInfo['logo']}"></a></div>
+	<ul>
+		
+<if condition="isset($navat)">
+	<li class=""><a href="/">网站首页</a></li>
+<else />
+	<li class="style"><a href="/">网站首页</a></li>
+</if>
+	
+	<foreach name="fenleiListone" item="vo">
+		<if condition="$navat eq $vo['id']">
+			<if condition="$vo['one'] eq 0">
+		<li class="style"><a href="{:U('demoa/met',array('id'=>$vo['id']))}">{$vo.name}</a>
+			<else /><li class="style"><a>{$vo.name}</a>
+			</if>
+			<else />
+			<if condition="$vo['one'] eq 0">
+		<li class=""><a href="{:U('demoa/met',array('id'=>$vo['id']))}">{$vo.name}</a>
+			<else /><li class=""><a>{$vo.name}</a>
+			</if>
+		</if>
+			<div class="nav2">
+				 <foreach name = "fenleiListtwo" item = "vs">
+                        <if condition = "$vo.id eq $vs['fid']">
+                        <a href="{:U('Demoa/met',array('id'=>$vs['id']))}"  is_active = "active_{$vs.id}"><p>{$vs.name}</p></a>
+                        </if>
+                        </foreach>
+
+			</div>
+		</li>
+				
+	</foreach>
+
+			</div>
+		</li>
+	</ul>
+</div>
+

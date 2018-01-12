@@ -1,0 +1,32 @@
+<include file = "Public:top"/>
+
+	<div class="boad">
+		<div class="boad3">
+			<div class="caseLink">
+				<div class="caseLinkTit"><b>{$name}</b><span></span></div>
+							
+			</div>
+			</div>
+			<ul class="caseList fixed">
+				
+								<foreach name="re" item="vo">
+									<li><a href="{:U('/home/Demoa/index',array('id'=>$vo['id']))}"><img src="{$vo.pic1}" alt="" /><h6>{$vo.title}</h6><p>项目地点：湖北省黄石市</p></a></li>
+									</foreach>
+								</ul>
+		
+			 <!-- <div class="paged">
+			 	<a href="#">首页</a>
+			 	<a class="">上一页</a>
+			 	<span class="current">1</span>
+				<a href="#">2</a>
+			 	<a class="" href="#">下一页</a>
+			 	<a href="#">尾页</a>
+			 </div> -->
+			 <link href="http://www.sztechand.com/templates/default/style/pagebotton.css" rel="stylesheet" type="text/css">
+			 <div class="page_sty pagination">
+			 <span class="current">共有 {$count}条记录</span> 
+					{$page}
+			</div> 
+			</div>
+
+<include file="Public:footer"/>

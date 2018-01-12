@@ -1,0 +1,187 @@
+<include file="Public/top" title = "里程密-网站配置" />
+<link href="__PUBLIC__/Default/jquery-upload-file/css/uploadfile.css" rel="stylesheet">
+<link href="__PUBLIC__/Default/jquery-upload-file/css/uploadfile.custom.css" rel="stylesheet">
+
+        <!-- start left -->
+<include file="Public/left"/>
+         <!-- end left -->
+        <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>首页栏目设置</h2>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <!-- <h5>All form elements <small>With custom checbox and radion elements.</small></h5> -->
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <form method="post" class="form-horizontal" action="{:U('Site/mdoedit',array('id'=>$arr['id']))}" enctype="multipart/form-data">
+                            	 <div class="form-group has-success">
+                            	 	<label class="col-sm-4 control-label">图片展示栏目名称</label>
+                            	 	<label class="col-sm-3 control-label"><input type="text" class="form-control" name="picname" required value = "{$arr.picname}"></label>
+                            	 </div>
+                                 <div class="form-group has-success">
+                                 	<label class="col-sm-4 control-label">选择栏目</label>
+                                   <div class="col-sm-3">
+                                   <select name="indexfid1" class="form-control m-b">
+                                        <option value="0">顶级分类</option>
+                                       <foreach name = "arr1" item = "vo">
+                                        <if condition="$arr['indexfid1'] eq $vo['id']">
+                                        	<option value="{$vo.id}" selected>{$vo.html}{$vo.name}</option>
+                                        	<else />
+                                        	 <option value="{$vo.id}">{$vo.html}{$vo.name}</option>
+                                        </if>
+                                       
+                                        </foreach>
+                                    </select>
+                                    </div>
+                                </div>
+                                
+
+                                
+                                
+                                 <div class="form-group has-success">
+                            	 	<label class="col-sm-4 control-label">底图片栏目名称</label>
+                            	 	<label class="col-sm-3 control-label"><input type="text" class="form-control" name="twoname" required value = "{$arr.twoname}"></label>
+                            	 </div>
+                                 <div class="form-group has-success">
+                                 	<label class="col-sm-4 control-label">选择栏目</label>
+                                   <div class="col-sm-3">
+                                   <select name="indexfid2" class="form-control m-b">
+                                        <option value="0">顶级分类</option>
+                                        <foreach name = "arr1" item = "vo">
+                                        <if condition="$arr['indexfid2'] eq $vo['id']">
+                                        	<option value="{$vo.id}" selected>{$vo.html}{$vo.name}</option>
+                                        	<else />
+                                        	 <option value="{$vo.id}">{$vo.html}{$vo.name}</option>
+                                        </if>
+                                       
+                                        </foreach>
+                                    </select>
+                                    </div>
+                                </div>
+                                
+                                 <div class="form-group has-success">
+                            	 	<label class="col-sm-4 control-label">底文字栏目名称</label>
+                            	 	<label class="col-sm-3 control-label"><input type="text" class="form-control" name="threename" required value = "{$arr.threename}"></label>
+                            	 </div>
+                                 <div class="form-group has-success">
+                                 	<label class="col-sm-4 control-label">选择栏目</label>
+                                   <div class="col-sm-3">
+                                   <select name="indexfid3" class="form-control m-b">
+                                        <option value="0">顶级分类</option>
+                                        <foreach name = "arr1" item = "vo">
+                                        <if condition="$arr['indexfid3'] eq $vo['id']">
+                                        	<option value="{$vo.id}" selected>{$vo.html}{$vo.name}</option>
+                                        	<else />
+                                        	 <option value="{$vo.id}">{$vo.html}{$vo.name}</option>
+                                        </if>
+                                       
+                                        </foreach>
+                                    </select>
+                                    </div>
+                                </div>
+                                
+                                    <div class="form-group has-success">
+                            	 	<label class="col-sm-4 control-label">栏目名称</label>
+                            	 	<label class="col-sm-3 control-label"><input type="text" class="form-control" name="syname" required value = "{$arr.syname}"></label>
+                            	 </div>
+                                 <div class="form-group has-success">
+                                 	<label class="col-sm-4 control-label">填写公司简介</label>
+                                   <div class="col-sm-4">
+                                   		<textarea name = "synopsis" required class="form-control">{$arr.synopsis}</textarea>
+                                   </div>                                    
+                                </div>
+                                  <div class="form-group has-success">
+                                 	<label class="col-sm-4 control-label">更多的跳转文章id</label>
+                                   <div class="col-sm-4">
+                                   		<input name = "indexfid4" required class="form-control" value="{$arr.indexfid4}"/>
+                                   </div>                                    
+                                </div>
+                                <div class="form-group has-success">
+                                 	<label class="col-sm-4 control-label">视频地址</label>
+                                   <div class="col-sm-4">
+                                   		<input name = "link" required class="form-control" value="{$arr.link}"/>
+                                   </div>                                    
+                                </div>
+                                  <div class="form-group has-success"><label class="col-sm-4 control-label">视频图片</label>
+                                <div class="col-sm-4"><div id="fileuploader1">上传</div></div>
+                                <div class="col-sm-4">
+                                	<textarea name = "vpic" required class="form-control"id="logo">{$arr.vpic}</textarea>
+                                 
+                                    <div style="height: 170px;width: 100%;padding: 15px;"><img src="{$arr.vpic}" height  = "170px;"></div>
+                                </div>
+                                </div>
+
+                                     <div class="hr-line-dashed"></div>
+                               
+                              
+                               
+                             
+                                </div>
+                               <div class="ibox-content">
+                            <div class="text-center">
+                            <input type="submit" value="保存" class="btn btn-primary" data-toggle="modal">
+                            </div>
+
+                    </div>
+                            </form>
+                        </div>
+                </div>
+
+            </div>
+    <!-- start footer -->
+                    <include file="Public/footer" />
+                    <script src="__PUBLIC__/Default/jquery-upload-file/js/jquery.form.js"></script>
+                    <script src="__PUBLIC__/Default/jquery-upload-file/js/jquery.uploadfile.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $("#fileuploader1").uploadFile({
+                                url:"{:U('Site/upload_logo')}", //上传URL
+                                fileName:"vpic", //名称
+                                maxFileCount:3, //上传文件数量
+                                acceptFiles:"image/*", //类型
+                                formData: {name:"vpic"}, //通过FROM传过去的参数
+                                onSuccess:function(files,data,xhr,pd){
+                                    if(data.success){
+                                        $(".ajax-file-upload-filename:contains("+files+")").after('<div style = "color:red;">上传成功</div>');
+                                        path = data.file_path;
+                                        $("#logo").val(path);
+                                    }else{
+
+                                    }
+                                },
+                                onError: function(files,status,errMsg,pd){
+                                    $(".ajax-file-upload-filename:contains("+files+")").after('<div style = "color:red;">上传失败</div>');
+                                    alert('上传失败请检查,错误提示：'+errMsg);
+                                }
+                            });
+                            
+                                
+                        });
+                    </script>
+            <!-- end footer -->
+        </div>
+</script>

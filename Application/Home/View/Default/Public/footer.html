@@ -1,0 +1,68 @@
+   <div class="footer">
+  	<div class="boad foot_top">
+  		<div class="footer-1">
+  		<div class="footer_more">
+  			<img src="__PUBLIC__/image/logo.png"/>
+  			</div>
+  		</div>
+  	<div class="footer-2">
+        <foreach name="one" item="vo">
+            <div class="footer_more">
+            <h4 class="title01">{$vo.name}</h4>
+            <ul class="link_list">
+
+            <foreach name="two" item="vs">
+                <if condition = "$vo.id eq $vs['fid']">
+                    <li><i class="ico_online"></i><a href="{$vs.link}">百度地图</a></li>
+                </if>
+            </foreach>
+
+            </ul>
+            </div>
+        </foreach>
+     </div>
+     </div>
+  </div>
+   <div class="footer-b">
+     <h3>  {$SiteInfo.title}<img src="__PUBLIC__/image/beianpng.png">粤公网安备 {$SiteInfo.icp}号</h3>
+   </div>
+  <!--<div id="floatright" style="right:70px;"><A href="tencent://message/?uin=2271473677&amp;Site=有事Q我&amp;Menu=yes">   
+<img style="border:0px;" src=""></a></div>-->
+	<!--<div class="qqserver">
+  <div class="qqserver_fold">
+    <div></div>
+  </div>
+  <div class="qqserver-body" style="display: block;">
+    <div class="qqserver-header">
+      <div></div>
+      <span class="qqserver_arrow"></span> </div>
+    <ul>
+    	<foreach name="qq" item="vo">
+    	<li> <a title="点击这里给我发消息" href="http://wpa.qq.com/msgrd?v=3&amp;uin={$vo.num.0}&amp;site=qq&amp;menu=yes" target="_blank">
+        <div>客服咨询</div>
+        <span>{$vo.name.0}</span> </a> </li>
+    	</foreach>
+      
+    </ul>
+  
+  </div>
+</div>-->
+   <script>
+       $(function(){
+           var $qqServer = $('.qqserver');
+           var $qqserverFold = $('.qqserver_fold');
+           var $qqserverUnfold = $('.qqserver_arrow');
+           $qqserverFold.click(function(){
+               $qqserverFold.hide();
+               $qqServer.addClass('unfold');
+           });
+           $qqserverUnfold.click(function(){
+               $qqServer.removeClass('unfold');
+               $qqserverFold.show();
+           });
+           //窗体宽度小鱼1024像素时不显示客服QQ
+           $(window).bind("load resize",function(){
+               resizeQQserver();
+           });
+       });
+   </script>

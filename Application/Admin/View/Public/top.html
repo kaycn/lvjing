@@ -1,0 +1,86 @@
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>[title]</title>
+    <link href="__PUBLIC__/Default/css/bootstrap.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/Default/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="__PUBLIC__/Default/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/Default/css/plugins/dataTables/dataTables.responsive.css" rel="stylesheet">
+    <link href="__PUBLIC__/Default/css/plugins/dataTables/dataTables.tableTools.min.css" rel="stylesheet">
+    <!-- Toastr style -->
+    <link href="__PUBLIC__/Default/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="__PUBLIC__/Default/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+
+    <link href="__PUBLIC__/Default/css/animate.css" rel="stylesheet">
+    <link href="__PUBLIC__/Default/css/style.css" rel="stylesheet">
+
+</head>
+<style>
+    th{
+        text-align: center;
+    }
+    td{
+        text-align: center;
+    }
+</style>
+<body>
+	 <div style="display: none;" class="modal inmodal fade in" id="myModal6" tabindex="-1" role="dialog" aria-hidden="false">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title">注册中心</h4>
+                            </div>
+                            <div class="modal-body">
+
+                                <form class="form-horizontal" action="{:U('User/reg')}" method="post">
+                                    <p>欢迎加入.</p>
+                                    <div class="form-group"><label class="col-lg-2 control-label">账号</label>
+
+                                        <div class="col-lg-10"><input placeholder="请输入账号" class="form-control" type="text" required name = "username">
+                                        </div>
+                                    </div>
+                                    <div class="form-group"><label class="col-lg-2 control-label">密码</label>
+
+                                        <div class="col-lg-10"><input placeholder="请输入密码" class="form-control" type="password" required name = "password"></div>
+                                    </div>
+                                    <div class="form-group"><label class="col-lg-2 control-label">重复密码</label>
+
+                                        <div class="col-lg-10"><input placeholder="请重复输入密码" class="form-control" type="password" required name = "repassword"></div>
+                                    </div>
+                                     <div class="form-group"><label class="col-lg-2 control-label" >昵称</label>
+
+                                        <div class="col-lg-10"><input placeholder="请输入昵称" class="form-control" type="text" required name = "truename">
+                                        </div>
+                                    </div>
+                                    <div class="form-group"><label class="col-lg-2 control-label" >选择权限</label>
+
+                                        <div class="col-lg-10">
+                                        	<input class="" type="checkbox"  name = "codeCategory" value="category">分类管理
+                                        	<input class="" type="checkbox"  name = "codeUser" value="user">用户管理
+                                        	<input class="" type="checkbox"  name = "codeCategory" value="site">网站设置
+                                        	<input class="" type="checkbox"  name = "codeCategory" value="ksildes">幻灯片管理                                    
+                                        	<foreach name="code" item="vo">
+                                        <input class="" type="checkbox"  name = "code{$vo.id}" value="{$vo.id}">{$vo.name}
+                                                    </foreach>
+                                        </div>
+                                    </div>                               
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-5 col-lg-7">
+                                            <button class="btn btn-sm btn-white" type="submit">点击注册</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <div id="wrapper">

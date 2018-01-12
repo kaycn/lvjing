@@ -1,0 +1,185 @@
+<include file="Public/top" title = "里程密-网站配置" />
+<link href="__PUBLIC__/Default/jquery-upload-file/css/uploadfile.css" rel="stylesheet">
+<link href="__PUBLIC__/Default/jquery-upload-file/css/uploadfile.custom.css" rel="stylesheet">
+
+        <!-- start left -->
+<include file="Public/left"/>
+         <!-- end left -->
+        <div class="row wrapper border-bottom white-bg page-heading">
+                <div class="col-lg-10">
+                    <h2>网站配置</h2>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <!-- <h5>All form elements <small>With custom checbox and radion elements.</small></h5> -->
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <form method="post" class="form-horizontal" action="{:U('Site/doedit',array('id'=>$arr['id']))}" enctype="multipart/form-data">
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">网站标题</label>
+
+                                    <div class="col-sm-8"><input type="text" class="form-control" name="title" required value = "{$arr.title}"></div>
+                                </div>
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">网站名称</label>
+
+                                    <div class="col-sm-8"><input type="text" class="form-control" name="name" required value = "{$arr.name}"></div>
+                                </div>
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">副标题</label>
+
+                                    <div class="col-sm-8"><input type="text" class="form-control" name="set_content" required value = "{$arr.set_content}"></div>
+                                </div>
+                              
+                                 <div class="form-group has-success"><label class="col-sm-4 control-label">联系电话</label>
+
+                                    <div class="col-sm-8"><input type="text" class="form-control" name="phone" required value = "{$arr.phone}"></div>
+                                </div>
+                                
+                                 <div class="form-group has-success"><label class="col-sm-4 control-label">qq客服</label>
+
+                                    <div class="col-sm-8"><input type="text" class="form-control" name="qq" required value = "{$arr.qq}"></div>
+                                </div>
+                               
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">网站关键字</label>
+                                    <div class="col-sm-8"><textarea name = "keywords" required class="form-control">{$arr.keywords}</textarea></div>
+                                </div>
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">网站描述</label>
+                                    <div class="col-sm-8"><textarea name = "description" required class="form-control">{$arr.description}</textarea></div>
+                                </div>
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">网站ICP备案号</label>
+                                    <div class="col-sm-8"><textarea name = "icp" required class="form-control">{$arr.icp}</textarea></div>
+                                </div>
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">网站统计代码</label>
+                                    <div class="col-sm-8"><textarea name = "statistics" required class="form-control">{$arr.statistics}</textarea></div>
+                                </div>
+                                
+                                 -<div class="form-group has-success"><label class="col-sm-4 control-label">首页栏目1</label>
+                                   <div class="col-sm-3">
+                                   <select name="indexfid1" class="form-control m-b">
+                                        <option value="0">顶级分类</option>
+                                        <foreach name = "arr1" item = "vo">
+                                        <option value="{$vo.id}">{$vo.html}{$vo.name}</option>
+                                        </foreach>
+                                    </select>
+                                    </div>
+                                </div>
+                                
+                                 <div class="form-group has-success"><label class="col-sm-4 control-label">首页栏目2</label>
+                                   <div class="col-sm-3">
+                                   <select name="indexfid2" class="form-control m-b">
+                                        <option value="0">顶级分类</option>
+                                        <foreach name = "arr1" item = "vo">
+                                        <option value="{$vo.id}">{$vo.html}{$vo.name}</option>
+                                        </foreach>
+                                    </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group has-success"><label class="col-sm-4 control-label">网站LOGO</label>
+                                <div class="col-sm-4"><div id="fileuploader1">上传</div></div>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" name="logo" required value = "{$arr.logo}" id = "logo">
+                                    <div style="height: 170px;width: 100%;padding: 15px;"><img src="{$arr.logo}" height  = "170px;"></div>
+                                </div>
+                                </div>
+                                
+                                 <div class="form-group has-success"><label class="col-sm-4 control-label">产品展示</label>
+                                <div class="col-sm-4"><div id="fileuploader2">上传</div></div>
+                                <div class="col-sm-4">
+                                    <textarea name = "pic1" required class="form-control"id="pic1"><foreach name="pic1" item="vo">{$vo}</foreach>
+                                    </textarea>
+                                </div>
+                                </div>
+
+
+                                     <div class="hr-line-dashed"></div>
+                               
+                              
+                               
+                             
+                                </div>
+                               <div class="ibox-content">
+                            <div class="text-center">
+                            <input type="submit" value="保存" class="btn btn-primary" data-toggle="modal">
+                            </div>
+
+                    </div>
+                            </form>
+                        </div>
+                </div>
+
+            </div>
+    <!-- start footer -->
+                    <include file="Public/footer" />
+                    <script src="__PUBLIC__/Default/jquery-upload-file/js/jquery.form.js"></script>
+                    <script src="__PUBLIC__/Default/jquery-upload-file/js/jquery.uploadfile.js"></script>
+                    <script type="text/javascript">
+                        $(document).ready(function() {
+                            $("#fileuploader1").uploadFile({
+                                url:"{:U('Site/upload_logo')}", //上传URL
+                                fileName:"logo", //名称
+                                maxFileCount:1, //上传文件数量
+                                acceptFiles:"image/*", //类型
+                                formData: {name:"logo"}, //通过FROM传过去的参数
+                                onSuccess:function(files,data,xhr,pd){
+                                    if(data.success){
+                                        $(".ajax-file-upload-filename:contains("+files+")").after('<div style = "color:red;">上传成功</div>');
+                                        $("#logo").val(data.file_path);
+                                    }else{
+
+                                    }
+                                },
+                                onError: function(files,status,errMsg,pd){
+                                    $(".ajax-file-upload-filename:contains("+files+")").after('<div style = "color:red;">上传失败</div>');
+                                    alert('上传失败请检查,错误提示：'+errMsg);
+                                }
+                            });
+                            path = ""
+                                  $("#fileuploader2").uploadFile({
+                                url:"{:U('Site/upload_logo')}", //上传URL
+                                fileName:"pic1", //名称
+                                maxFileCount:12, //上传文件数量
+                                acceptFiles:"image/*", //类型
+                                formData: {name:"pic1"}, //通过FROM传过去的参数
+                                onSuccess:function(files,data,xhr,pd){
+                                    if(data.success){
+                                        $(".ajax-file-upload-filename:contains("+files+")").after('<div style = "color:red;">上传成功</div>');
+                                        path = path + data.file_path +'/n';
+                                        $("#pic1").val(path);
+                                    }else{
+
+                                    }
+                                },
+                                onError: function(files,status,errMsg,pd){
+                                    $(".ajax-file-upload-filename:contains("+files+")").after('<div style = "color:red;">上传失败</div>');
+                                    alert('上传失败请检查,错误提示：'+errMsg);
+                                }
+                            });
+
+
+                        });
+                    </script>
+            <!-- end footer -->
+        </div>
+</script>
